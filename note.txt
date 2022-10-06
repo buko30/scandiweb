@@ -1,0 +1,26 @@
+        $sku = $_POST['sku'];
+        $name = $_POST['name'];
+        $price = $_POST['price'];
+        $productType = $_POST['productType'];
+        $size = $_POST['sku'];
+        $height = $_POST['height'];
+        $width = $_POST['width'];
+        $length = $_POST['length'];
+        $weight = $_POST['weight'];
+
+        $data = array("sku" => $sku,
+            "name" => $name,
+            "price" => $price,
+            "productType" => $productType,
+            "size" => $size,
+            "height" => $height,
+            "width" => $width,
+            "length" => $length,
+            "weight" => $weight
+
+        );
+
+        //$info = array()
+
+       // echo json_encode($data);
+        return 'giorgi';

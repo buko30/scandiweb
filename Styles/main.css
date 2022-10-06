@@ -1,0 +1,18 @@
+hr{
+    color:black;
+    background-color: black;
+    /*height: 5px;*/
+    /*border-width: 0px;*/
+    border:2px solid black;
+    opacity: 1;
+}
+
+.error{
+    color: red;
+}
+
+fieldset{
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
